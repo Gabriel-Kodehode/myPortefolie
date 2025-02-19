@@ -1,27 +1,31 @@
 const Projekts = [
   {
+    id: "1",
     name: "DrumSite",
     link: "https://github.com/Gabriel-Kodehode/DrumSite",
     beskrivelse: "",
-    image: "./src/Images/DrumWebsite.png",
+    image: "/DrumWebsite.png",
   },
   {
+    id: "2",
     name: "Cookie Clicker",
     link: "https://github.com/Gabriel-Kodehode/CookieClicker",
     beskrivelse: "en kopi av Cookie clicker",
-    image: "./src/Images/CookieClicker.png",
+    image: "/CookieClicker.png",
   },
   {
+    id: "3",
     name: "Space",
     link: "https://github.com/Gabriel-Kodehode/Space",
     beskrivelse: "A descriptopn for four diffrent planets",
-    image: "./src/Images/Space.png",
+    image: "/Space.png",
   },
   {
+    id: "4",
     name: "Jule Kalender",
     link: "https://github.com/Gabriel-Kodehode/kalender",
     beskrivelse: "en kopi av Cookie clicker",
-    image: "./src/Images/Kalender.png",
+    image: "/Kalender.png",
   },
 ];
 
@@ -29,7 +33,7 @@ export default function ProjektDisplay() {
   return (
     <div id="ProjektsBox">
       {Projekts.map((projekt, index) => (
-        <div id="ProjektFile">
+        <div key={projekt.id} id="ProjektFile">
           <h3>{projekt.name}</h3>
           <p>{projekt.beskrivelse}</p>
           <button>

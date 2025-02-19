@@ -170,12 +170,12 @@ body {
 /* Style For infobox */
 #InfoDiv {
   position: absolute;
-  right: 10%;
-  margin-top: 2%;
+  right: 7%;
+  margin-top: 1%;
   width: 40%;
   color: var(--text-color);
   transition: color 1s ease, color 1s ease;
-  font-size: x-large;
+  font-size: larger;
   letter-spacing: 2px;
   line-height: 2;
 }

@@ -18,7 +18,7 @@ export default function Light() {
       <div id="ButtonRope"></div>
       <button id="LightButton" onClick={ThemeChange}></button>
       <div id="LightRope"></div>
-      <img src="./src/Images/Light.png" alt="lys" id="Light" />
+      <img src="/Light.PNG" alt="lys" id="Light" />
     </>
   );
 }

@@ -12,9 +12,11 @@ import Prosjekt from "./Prosjekt.jsx";
 export const AppContext = createContext();
 
 function App() {
+  const contextValue = {};
+
   return (
     <>
-      <AppContext.Provider>
+      <AppContext.Provider value={contextValue}>
         <Header />
         <div id="FlexLayout">
           <Light />
