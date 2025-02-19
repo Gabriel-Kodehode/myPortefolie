@@ -4,28 +4,28 @@ const Projekts = [
     name: "DrumSite",
     link: "https://github.com/Gabriel-Kodehode/DrumSite",
     beskrivelse: "",
-    image: "/DrumWebsite.png",
+    image: "DrumWebsite.PNG",
   },
   {
     id: "2",
     name: "Cookie Clicker",
     link: "https://github.com/Gabriel-Kodehode/CookieClicker",
     beskrivelse: "en kopi av Cookie clicker",
-    image: "/CookieClicker.png",
+    image: "CookieClicker.PNG",
   },
   {
     id: "3",
     name: "Space",
     link: "https://github.com/Gabriel-Kodehode/Space",
     beskrivelse: "A descriptopn for four diffrent planets",
-    image: "/Space.png",
+    image: "Space.PNG",
   },
   {
     id: "4",
     name: "Jule Kalender",
     link: "https://github.com/Gabriel-Kodehode/kalender",
     beskrivelse: "en kopi av Cookie clicker",
-    image: "/Kalender.png",
+    image: "Kalender.PNG",
   },
 ];
 
