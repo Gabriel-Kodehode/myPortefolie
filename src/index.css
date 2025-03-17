@@ -175,7 +175,7 @@ body {
   width: 40%;
   color: var(--text-color);
   transition: color 1s ease, color 1s ease;
-  font-size: larger;
+  font-size: large;
   letter-spacing: 2px;
   line-height: 2;
 }
